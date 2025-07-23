@@ -1,11 +1,11 @@
 function menu(page){
-    let navs = [
-        {pagevalue: 'home', pagename: 'Home', link: './index.html'},
-        {pagevalue: 'about', pagename: 'About us', link: './about.html'},
-        {pagevalue: 'service', pagename: 'Services', link: './service.html'},
-        {pagevalue: 'testimonials', pagename: 'Testimonials', link: './testimonials.html'},
-        {pagevalue: 'contact', pagename: 'Contacts', link: './contact.html'},
-    ];
+    const navs = [
+  { pagevalue: 'home', pagename: 'Home', link: '/#home' },
+  { pagevalue: 'about', pagename: 'About Us', link: '/#about' },
+  { pagevalue: 'service', pagename: 'Services', link: '/#service' },
+  { pagevalue: 'testimonials', pagename: 'Testimonials', link: '/#testimonials' },
+  { pagevalue: 'contact', pagename: 'Contact', link: '/#contact' },
+];
     let outPut = `<div class="navigation-background">
         <div class="container">`;
         outPut += `<div class="navigation">`;

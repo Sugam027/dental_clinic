@@ -1,5 +1,5 @@
 import comments from "./comments.js"
-import gallery from "./gallery.js"
+// import gallery from "./gallery.js"
 import appointment from "./appointment.js"
 
 function contact(){
@@ -178,7 +178,7 @@ function contact(){
 
 
     
-    outPut += gallery();
+    // outPut += gallery();
 
 return outPut;    
 }

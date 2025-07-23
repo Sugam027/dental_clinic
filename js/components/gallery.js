@@ -1,69 +1,66 @@
-function gallery(){
-    let images = ['../images/our-office-1.jpg', '../images/our-office-2.jpg', '../images/our-office-3.jpg', '../images/our-office-4.jpg', '../images/our-office-5.jpg', '../images/our-office-6.jpg']
+// function gallery() {
+//   let images = [
+//     '../images/our-office-1.jpg',
+//     '../images/our-office-2.jpg',
+//     '../images/our-office-3.jpg',
+//     '../images/our-office-4.jpg',
+//     '../images/our-office-5.jpg',
+//     '../images/our-office-6.jpg'
+//   ];
 
-    let outPut = `<section class="large-office">
-    <div class="our-office-background">
-        <div class="container">
-            <div class="our-office">
-                <div class="our-office-title">
-                    <h1>Our Office</h1>
-                </div>`
+//   let outPut = `<section class="large-office">
+//     <div class="our-office-background">
+//       <div class="container">
+//         <div class="our-office">
+//           <div class="our-office-title">
+//             <h1>Our Office</h1>
+//           </div>
+//           <div class="our-office-content">`;
+
+//   images.forEach((image) => {
+//     outPut += `<div class="our-office-images" style="display: none;">
+//       <img src="${image}" alt="Office Image">
+//     </div>`;
+//   });
+
+//   outPut += `
+//     <span class="prev" id="prev">&#8249;</span>
+//     <span class="next" id="next">&#8250;</span>
+//     </div>
+//   </div>
+//   </div>
+//   </section>`;
+
+//   return outPut;
+// }
 
 
+// document.addEventListener('DOMContentLoaded', () => {
+//   // Inject gallery into container
+//   const container = document.getElementById('gallery-container');
+//   container.innerHTML = gallery(); // now HTML is in DOM
 
-    outPut += `<div class="our-office-content">`
-    images.map((image)=>{
-        outPut += `<div class="our-office-images">
-        <img src="${image}">
-        </div>`
-    })
-    outPut += `<span class="prev" id="prev"><</span>
-    <span class="next" id="next">></span>
-    </div>`
+//   // Now that gallery is in DOM, initialize slider
+//   let i = 0;
+//   const slider = document.querySelectorAll('.our-office-images');
+//   const len = slider.length;
 
-    outPut += `</div>
-    </div>
-    </div>
-    </section>
-    `
-    
-    return outPut;
-}
+//   function showSlide(index) {
+//     slider.forEach((slide, idx) => {
+//       slide.style.display = idx === index ? 'block' : 'none';
+//     });
+//   }
 
+//   showSlide(i); // show first image initially
 
-let i = 0;
-document.addEventListener('DOMContentLoaded', function imageSlider() {
-    let slider = document.querySelectorAll('.our-office-images');
-    let len = slider.length;
-    for( let j = 0; j < len; j++){
-        let a = slider[j].style.display = 'none';
-    }
-    i++;
-    if (i > len){
-        i = 1;
-    }
-    if (i < 1) {
-        i = len;
-    }
-    slider[i-1].style.display = 'block'
-    // setTimeout(imageSlider, 4000);
+//   document.getElementById('prev').addEventListener('click', () => {
+//     i = (i - 1 + len) % len;
+//     showSlide(i);
+//   });
 
-    document.getElementById('prev').addEventListener('click', function(){
-        slider[i - 1].style.display = 'none';
-        i--;
-        if (i < 1) {
-            i = len;
-        }
-        slider[i-1].style.display = 'block';
-        console.log(i)
-    })
-    document.getElementById('next').addEventListener('click', function(){
-        slider[i - 1].style.display = 'none';
-        i++;
-        if (i > len) {
-            i = 1;
-        }
-        slider[i-1].style.display = 'block'
-    })
-})
-export default gallery;
+//   document.getElementById('next').addEventListener('click', () => {
+//     i = (i + 1) % len;
+//     showSlide(i);
+//   });
+// });
+// export default gallery;

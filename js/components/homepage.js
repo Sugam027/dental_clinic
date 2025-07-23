@@ -19,7 +19,7 @@ let outPut = `<section class="background">
     outPut += `<h3>Welcome to Best Dental <br> Care In Your City</h3>`
         homeDatas.map(homeData =>{
             outPut += `<p class="slogan">${homeData.slogan}</p>
-            <a href="#appointment-table" class="btn btn-transparent">Appointment</a>
+            <a href="/#contact" class="btn btn-transparent">Appointment</a>
             <a href="#" class="btn">${homeData.contact}</a>`
         })
         outPut += `</div>

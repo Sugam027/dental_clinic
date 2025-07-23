@@ -1,4 +1,4 @@
-import gallery from './gallery.js';
+// import gallery from './gallery.js';
 
 function about(){
 
@@ -18,7 +18,7 @@ function about(){
             outPut += `<h3>${homeData.title}</h3>
             <p class="slogan">${homeData.slogan}</p>
             <p>Let us brighten your smile!</p>
-            <a href="./contact.html#appointment-table" class="btn btn-transparent">Appointment</a>
+            <a href="/#contact" class="btn btn-transparent">Appointment</a>
             <a href="#" class="btn">${homeData.contact}</a>`
         })
         outPut += `</div>   
@@ -132,7 +132,7 @@ function about(){
 
 // <!-- gallery section starts -->
 
-outPut += gallery();
+// outPut += gallery();
 
 // <!-- gallery section ends -->
 

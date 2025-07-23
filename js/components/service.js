@@ -1,4 +1,4 @@
-import gallery  from "./gallery.js"
+// import gallery  from "./gallery.js"
 
 
 function service(){
@@ -15,7 +15,7 @@ function service(){
         coverDatas.map(coverData =>{
             outPut += `<p class="slogan">${coverData.slogan}</p>
             <p>Special People For Special Smiles</p>
-            <a href="./contact.html#appointment-table" class="btn btn-transparent">Appointment</a>
+            <a href="/#contact" class="btn btn-transparent">Appointment</a>
             <a href="#" class="btn">${coverData.contact}</a>`
         })
         outPut += `</div>   
