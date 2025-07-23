@@ -18,7 +18,7 @@ function about(){
             outPut += `<h3>${homeData.title}</h3>
             <p class="slogan">${homeData.slogan}</p>
             <p>Let us brighten your smile!</p>
-            <a href="/#contact" class="btn btn-transparent">Appointment</a>
+            <a href="#contact" class="btn btn-transparent">Appointment</a>
             <a href="#" class="btn">${homeData.contact}</a>`
         })
         outPut += `</div>   
@@ -49,15 +49,15 @@ function about(){
         outPut += `</div>`
 
         let homeRights =[
-            {image: '../images/on-time.png',
+            {image: '../../images/on-time.png',
             title: 'On Time, every Time',
             description : 'We know how busy your schedule is, so your appointment will always start on time with no waiting.',
             },
-            {image: '../images/billing.png',
+            {image: '../../images/billing.png',
             title: 'Easy to understand billing',
             description : 'Get answers to your questions about insurance or paying for your care. We’ll file all the paperwork and accept most insurances.',
             },
-            {image: '../images/smiling.png',
+            {image: '../../images/smiling.png',
             title: 'Modern care with a smile',
             description : 'You may not get as excited as we do about our CEREC machine and 3D x-rays. But you’ll smile when you see how great you look and feel.',
             },
@@ -99,10 +99,10 @@ function about(){
                 </div>`
 
         let teamDatas = [
-            {image: '../images/our-dentist3.jpg', name: 'Jonh Rana Magar, Dentist', role: 'Owner of Family Dental Care Since 2009', description: 'I love my patients and the people with whom I work. I see everyone, from young kiddos to adults and everyone in between. My patients help me grow as a dentist and make me excited for the future of our practice.<br> I’m a hockey dad, a figure skating dad, and a soccer dad. My kids love to play outside and stay active. I am right there to watch, play with them, and encourage my kids as they grow! Did I mention I love wine, too?!'},
-            {image: '../images/our-dentist1.jpg', name: 'Gopal Bahadur, Hygienist', role: 'At Family Dental Care Since 2018', description: 'So far, my favorite part about working at Bowles Dental is getting to meet all of the patients. I truly enjoy forming relationships with them as well as helping them have a beautiful smile. I love spending time with my husband, Stephen, and our dog, Max.<br> I love the many great patients I’ve gotten to know over the years. I’m so grateful to work two days a week and to work with such an awesome team.'},
-            {image: '../images/our-dentist2.jpg', name: 'Smriti Ghale, Assistant', role: 'At Family Dental Care Since 2015', description: 'I love my patients and the people with whom I work. I see everyone, from young kiddos to adults and everyone in between.My patients help me grow as a dentist and make me excited for the future of our practice.<br> In my short time working at Bowles Dental, I have enjoyed every minute of it. Dr. Bowles and the team have been so welcoming and are great to work with. There’s never a dull moment and someone’s always laughing. It’s a great work environment, they put their patients first but they know how to have fun. I have also loved getting to know all the amazing patients. The patients I have met so far have been wonderful and I look forward to building a relationship with them for years to come.'},
-            {image: '../images/our-dentist4.jpg', name: 'Bindiya Sakhya, Dentist', role: 'At Family Dental Care Since 2016', description: 'I love working at Family Dental because being in the dental field has always been my dream. Getting to work with such wonderful people every day makes it even better! My hobbies are spending time with family, working out, and eating.<br> I’m a hockey dad, a figure skating dad, and a soccer dad. My kids love to play outside and stay active. I am right there to watch, play with them, and encourage my kids as they grow! Did I mention I love wine, too?!'},
+            {image: '../../images/our-dentist3.jpg', name: 'Jonh Rana Magar, Dentist', role: 'Owner of Family Dental Care Since 2009', description: 'I love my patients and the people with whom I work. I see everyone, from young kiddos to adults and everyone in between. My patients help me grow as a dentist and make me excited for the future of our practice.<br> I’m a hockey dad, a figure skating dad, and a soccer dad. My kids love to play outside and stay active. I am right there to watch, play with them, and encourage my kids as they grow! Did I mention I love wine, too?!'},
+            {image: '../../images/our-dentist1.jpg', name: 'Gopal Bahadur, Hygienist', role: 'At Family Dental Care Since 2018', description: 'So far, my favorite part about working at Bowles Dental is getting to meet all of the patients. I truly enjoy forming relationships with them as well as helping them have a beautiful smile. I love spending time with my husband, Stephen, and our dog, Max.<br> I love the many great patients I’ve gotten to know over the years. I’m so grateful to work two days a week and to work with such an awesome team.'},
+            {image: '../../images/our-dentist2.jpg', name: 'Smriti Ghale, Assistant', role: 'At Family Dental Care Since 2015', description: 'I love my patients and the people with whom I work. I see everyone, from young kiddos to adults and everyone in between.My patients help me grow as a dentist and make me excited for the future of our practice.<br> In my short time working at Bowles Dental, I have enjoyed every minute of it. Dr. Bowles and the team have been so welcoming and are great to work with. There’s never a dull moment and someone’s always laughing. It’s a great work environment, they put their patients first but they know how to have fun. I have also loved getting to know all the amazing patients. The patients I have met so far have been wonderful and I look forward to building a relationship with them for years to come.'},
+            {image: '../../images/our-dentist4.jpg', name: 'Bindiya Sakhya, Dentist', role: 'At Family Dental Care Since 2016', description: 'I love working at Family Dental because being in the dental field has always been my dream. Getting to work with such wonderful people every day makes it even better! My hobbies are spending time with family, working out, and eating.<br> I’m a hockey dad, a figure skating dad, and a soccer dad. My kids love to play outside and stay active. I am right there to watch, play with them, and encourage my kids as they grow! Did I mention I love wine, too?!'},
             
         ]
 

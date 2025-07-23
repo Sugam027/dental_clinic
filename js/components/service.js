@@ -15,7 +15,7 @@ function service(){
         coverDatas.map(coverData =>{
             outPut += `<p class="slogan">${coverData.slogan}</p>
             <p>Special People For Special Smiles</p>
-            <a href="/#contact" class="btn btn-transparent">Appointment</a>
+            <a href="#contact" class="btn btn-transparent">Appointment</a>
             <a href="#" class="btn">${coverData.contact}</a>`
         })
         outPut += `</div>   
@@ -31,7 +31,7 @@ function service(){
             <div class="services-homepage">`
 
         let homeDatas = [
-            {image: '../images/services-description1.jpg',
+            {image: '../../images/services-description1.jpg',
             title: 'With you, every step<br> of the way',
             description: 'Even the best cared for teeth need some TLC to keep them sparkling clean and healthy. Whether you need a routine checkup, filling, or gum disease treatment, we’ll meet your general dentistry needs with high-quality, one-on-one service.<br> We welcome patients of all ages, backgrounds, and dental health histories. Our local general dentists look forward to treating you like family. Get ready to relax, feel good, and look good. Request an <a href="#">appointment</a>  today.',
             
@@ -65,7 +65,7 @@ function service(){
             <div class="services-process">`
 
         let processDatas = [
-            {image: '../images/services-description2.jpg',
+            {image: '../../images/services-description2.jpg',
             title: 'Our process is simple',
             description: ['We focus on the prevention and early detection of decay and disease', 'Catching issues early gives you more treatment options', 'Your comfort and satisfaction come first — and you won’t believe how good your teeth look and feel!'],
             
@@ -105,39 +105,39 @@ function service(){
                 </div>`
 
         let helpDatas = [
-            {image: '../images/services1.webp',
+            {image: '../../images/services1.webp',
             title: 'Periodic Check Up',
             description: 'Dental cleanings are essential for maintaining optimal oral health and function. These preventive visits can help stop dental issues before they get worse.',
             },
-            {image: '../images/services2.webp',
+            {image: '../../images/services2.webp',
             title: 'Scaling and Root Planing',
             description: 'Tooth scaling and root planing are nonsurgical deep-cleaning treatments for periodontitis. This severe gum disease can cause you to lose teeth, gums and bone.',
             },
-            {image: '../images/services3.webp',
+            {image: '../../images/services3.webp',
             title: 'Tooth Filing',
             description: 'Dental fillings are single or combinations of metals, plastics, glass or other materials used to repair or restore teeth. Popular questions about fillings are answered.',
             },
-            {image: '../images/services4.webp',
+            {image: '../../images/services4.webp',
             title: 'Bleaching',
             description: 'Teeth whitening is the most popular elective dental treatment on the market. Discoloration can occur for a number of reasons and may be extrinsic or intrinsic.',
             },
-            {image: '../images/services5.webp',
+            {image: '../../images/services5.webp',
             title: 'Covering of Tooth',
             description: 'Dental crowns are permanent caps placed on weak or damaged teeth to protect and cover a tooth. They can be made of materials like metal, ceramic or porcelain.',
             },
-            {image: '../images/services6.webp',
+            {image: '../../images/services6.webp',
             title: 'Root Canal Treatment (RCT)',
             description: 'Root canal therapy/treatment (RCT) is used to treat an infected or abscessed tooth. It eliminates infection by removing the nerves and tissues inside of a tooth.',
             },
-            {image: '../images/services7.webp',
+            {image: '../../images/services7.webp',
             title: 'Tooth Extraction',
             description: 'A tooth extraction may be necessary for many reasons, including severe damage or decay. One of the most common dental procedures, a tooth extraction can eliminate bacteria.',
             },
-            {image: '../images/services8.webp',
+            {image: '../../images/services8.webp',
             title: 'Implants',
             description: 'A titanium screw (like a tooth root ) that is surgically positioned into the jawbone beneath the gum line. A natural tooth colored crown is then placed over the Dental Implant.',
             },
-            {image: '../images/braces.jpg',
+            {image: '../../images/braces.jpg',
             title: 'Orthodontic Treatment',
             description: 'Orthodontics is a dental specialty focused on aligning your bite. Orthodontic treatments include traditional braces, clear aligners and removable retainers.',
             },

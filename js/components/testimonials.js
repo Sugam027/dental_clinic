@@ -15,7 +15,7 @@ function testimonials(){
         coverDatas.map(coverData =>{
             outPut += `<p class="slogan">${coverData.slogan}</p>
             <p>A genuine smile comes from the heart, but a healthy smile needs good dental care.</p>
-            <a href="/#contact" class="btn btn-transparent">Appointment</a>
+            <a href="#contact" class="btn btn-transparent">Appointment</a>
             <a href="#" class="btn">${coverData.contact}</a>`
         })
         outPut += `</div>   
