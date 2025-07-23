@@ -4,7 +4,7 @@ import comments from "./comments.js";
 function homepage(){
     // background
 let outPut = `<section class="background">
-<img src="../../images/brushing.webp">
+<img src="images/brushing.webp">
 </section>`
 
     outPut += `<section class="homepage-background">
@@ -34,10 +34,10 @@ let outPut = `<section class="background">
         <div class="container">
             <div class="table">`
         let cards = [
-            {title: 'Opening Hour', image: '../../images/clock.png', description: 'Sunday - Friday <br> 12:00 pm - 8:00 pm', moreBtn: '', link: '#'},
-            {title: 'Appointment', image: '../../images/appointment.png', description: 'At Family Dental Care, we\'re here when you need us most. That\'s why we\'re bringing you more ways to get the care you need than ever before.', moreBtn: 'Requests', link: '#contact'},
-            {title: 'Urgent <br> Care', image: '../../images/dentist.png', description: 'Search for a care facility near you to find the shortest wait and get in line ahead of time.', moreBtn: 'Search', link: '#'},
-            {title: 'Find<br> Location', image: '../../images/location.png', description: 'We’re located in the heart of the beautiful Hattigauda area.', moreBtn: 'Visits', link: '#contact'},
+            {title: 'Opening Hour', image: 'images/clock.png', description: 'Sunday - Friday <br> 12:00 pm - 8:00 pm', moreBtn: '', link: '#'},
+            {title: 'Appointment', image: 'images/appointment.png', description: 'At Family Dental Care, we\'re here when you need us most. That\'s why we\'re bringing you more ways to get the care you need than ever before.', moreBtn: 'Requests', link: '#contact'},
+            {title: 'Urgent <br> Care', image: 'images/dentist.png', description: 'Search for a care facility near you to find the shortest wait and get in line ahead of time.', moreBtn: 'Search', link: '#'},
+            {title: 'Find<br> Location', image: 'images/location.png', description: 'We’re located in the heart of the beautiful Hattigauda area.', moreBtn: 'Visits', link: '#contact'},
         ]
         cards.map(card =>{
             outPut += `<div class="card">
@@ -66,7 +66,7 @@ let outPut = `<section class="background">
         <div class="container">
         <div class="about-us">`
         outPut += `<div class="about-us-image">
-        <img src="../../images/aboutus.jpg" alt="" width="100%">
+        <img src="images/aboutus.jpg" alt="" width="100%">
         </div>
         <div class="about-us-content">
         <h1 class="about-us-title">About us</h1>
@@ -77,9 +77,9 @@ let outPut = `<section class="background">
             
             <div class="about-us-detail">`
             let specialities =[
-                {image: '../../images/qualified-dentist.png', title:'Qualified <br> Dentsists'},
-            {image: '../../images/emergency.png', title:'Emergency <br> Services'},
-            {image: '../../images/accurate.png', title:'Accurate <br> Testing'},
+                {image: 'images/qualified-dentist.png', title:'Qualified <br> Dentsists'},
+            {image: 'images/emergency.png', title:'Emergency <br> Services'},
+            {image: 'images/accurate.png', title:'Accurate <br> Testing'},
         ]
         specialities.map(spec =>{
             outPut += `<div class="about-us-detail-circle">
@@ -130,14 +130,14 @@ let outPut = `<section class="background">
         outPut += `<div class="services-content">
                 <div class="services-detail-left">`
         let services =[
-            {image: '../../images/regular-check.png', title: 'Periodic <br>check up'},
-            {image: '../../images/scaling.png', title: 'Scaling and Root Planing'},
-            {image: '../../images/filling.png', title: 'Tooth Filing'},
-            {image: '../../images/bleaching.png', title: 'Bleaching'},
-            {image: '../../images/covering.png', title: 'Covering of Tooth'},
-            {image: '../../images/rct.png', title: 'Root Canal Treatment (RCT)'},
-            {image: '../../images/extraction.png', title: 'Tooth Extraction'},
-            {image: '../../images/implants.png', title: 'Implants'},
+            {image: 'images/regular-check.png', title: 'Periodic <br>check up'},
+            {image: 'images/scaling.png', title: 'Scaling and Root Planing'},
+            {image: 'images/filling.png', title: 'Tooth Filing'},
+            {image: 'images/bleaching.png', title: 'Bleaching'},
+            {image: 'images/covering.png', title: 'Covering of Tooth'},
+            {image: 'images/rct.png', title: 'Root Canal Treatment (RCT)'},
+            {image: 'images/extraction.png', title: 'Tooth Extraction'},
+            {image: 'images/implants.png', title: 'Implants'},
         ]
         services.map(service =>{
             outPut += `<div class="card">
@@ -150,7 +150,7 @@ let outPut = `<section class="background">
         outPut += `</div>`
 
         let serviceRight = [
-            {image: '../../images/braces.jpg', title: 'Orthodontic Treatment - Correction of Irregular Teeth', description: 'Orthodontics is a dental specialty focused on aligning your bite. Orthodontic treatments include traditional braces, clear aligners and removable retainers. Clear braces work the same as traditional metal braces, but they’re less noticeable. They consist of clear ceramic brackets and tooth-colored wire. Braces can correct a wide range of dental issues, including crooked, gapped, rotated or crowded teeth.'},
+            {image: 'images/braces.jpg', title: 'Orthodontic Treatment - Correction of Irregular Teeth', description: 'Orthodontics is a dental specialty focused on aligning your bite. Orthodontic treatments include traditional braces, clear aligners and removable retainers. Clear braces work the same as traditional metal braces, but they’re less noticeable. They consist of clear ceramic brackets and tooth-colored wire. Braces can correct a wide range of dental issues, including crooked, gapped, rotated or crowded teeth.'},
         ]
         serviceRight.map(serv =>{
             outPut += `<div class="services-detail-right">
@@ -214,9 +214,9 @@ let outPut = `<section class="background">
                     <div class="dentists-content">`
 
         let dentists = [
-            {image: '../../images/our-dentist1.jpg', name: 'Gopal Bahadur', field: 'Orthopedics Expert', description: 'Hello guys, I am Gopal from Sirbistana. I am senior art director and founder of Violetta.'},
-            {image: '../../images/our-dentist2.jpg', name: 'Smriti Ghale', field: 'Orthopedics Expert', description: 'Hello guys, I am Gopal from Sirbistana. I am senior art director and founder of Violetta.'},
-            {image: '../../images/our-dentist3.jpg', name: 'John Rana Magar', field: 'Orthopedics Expert', description: 'Hello guys, I am Gopal from Sirbistana. I am senior art director and founder of Violetta.'},
+            {image: 'images/our-dentist1.jpg', name: 'Gopal Bahadur', field: 'Orthopedics Expert', description: 'Hello guys, I am Gopal from Sirbistana. I am senior art director and founder of Violetta.'},
+            {image: 'images/our-dentist2.jpg', name: 'Smriti Ghale', field: 'Orthopedics Expert', description: 'Hello guys, I am Gopal from Sirbistana. I am senior art director and founder of Violetta.'},
+            {image: 'images/our-dentist3.jpg', name: 'John Rana Magar', field: 'Orthopedics Expert', description: 'Hello guys, I am Gopal from Sirbistana. I am senior art director and founder of Violetta.'},
         ]
         dentists.map(dentist =>{
             outPut += `<div class="dentists-detail">

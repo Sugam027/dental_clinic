@@ -10,7 +10,7 @@ function menu(page){
         <div class="container">`;
         outPut += `<div class="navigation">`;
         outPut += `<div class="logo">
-        <img src="../../images/logo.png" width="100%">
+        <img src="images/logo.png" width="100%">
         </div>`;
         outPut += `<div class="menu-s" id="nav-btn">
             <span class="line-1"></span>

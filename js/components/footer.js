@@ -6,8 +6,8 @@ function footer(){
                     <h3>Contact Info</h3>`
      
     let contactInfo = [
-        {name: 'contact', image: '../../images/phone.png', value: '9843127392'},
-        {name: 'mail', image: '../../images/mail.png', value: 'familydental@gmail.com'},
+        {name: 'contact', image: 'images/phone.png', value: '9843127392'},
+        {name: 'mail', image: 'images/mail.png', value: 'familydental@gmail.com'},
     ]
     contactInfo.map(info =>{
         outPut += `<div class="${info.name}">
